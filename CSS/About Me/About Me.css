@@ -1,0 +1,19 @@
+h1	{
+	color: rgb(255,255,255);
+	border: 3px solid rgb(255,255,255);
+}
+
+li	{
+	color: rgb(255,255,255);
+}
+
+h4	{
+	background: rgb(11,99,150);
+	color: rgb(255,255,255);
+}
+
+body	{
+	background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYn4_8tRRQRsr-SNXEvAcoyB-oj78P5YQt9RUrAcK2irJIqqIO);
+	background-repeat: no-repeat;
+	background-size: cover;
+}

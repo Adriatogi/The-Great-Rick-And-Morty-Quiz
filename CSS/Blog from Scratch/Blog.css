@@ -1,0 +1,42 @@
+body	{
+	border: 20px solid #bdc3c7;
+	font-family: Source Sans Pro;
+  max-width: 700;
+  width: 80%;
+	margin: 20px auto;
+	padding: 20px; 
+}
+
+.date	{
+	color: #3498db;
+	text-transform: uppercase;
+	letter-spacing: 0.2rem;
+}
+
+.FirstParagraph{
+	border-left: 5px solid #bdc3c7;
+	padding-left: 5px;
+}
+
+h2	{
+	color:#2c3e50;
+	font-size: 2.0rem;
+}
+
+hr.After_Blog {
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+    padding-bottom: 20px;
+}
+hr.After_blof:after {
+    content: "§";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: white;
+}

@@ -1,0 +1,43 @@
+body {
+  background: url(https://source.unsplash.com/n8Qb1ZAkK88);
+  background-size: cover;
+  background-position: center;
+  font-family: "Palanquin"; 
+}
+
+.intro {
+  color: white;
+  background-color: steelblue;
+  margin: auto auto;
+}
+
+/* h1 {
+  text-align: center;
+} */
+
+html {
+  height: 100%;
+}
+
+.contacts {
+  background-color: white;
+  color: steelblue; 
+}
+
+/* .aboutMe {
+  background-color: #00cc00;
+  color: white;
+}; */
+
+/* .idk {
+	background-color: #ff6600;
+	color: white;
+} */
+
+ .content {
+  background-color: steelblue;
+  color: white;
+  text-align: center;
+  font-family: "Palanquin";
+  font-weight: 1.2;
+}
