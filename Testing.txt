@@ -1,3 +1,2 @@
 Testing 1 failed
 Testing 2
-Messup when commiting. Restarted commit
