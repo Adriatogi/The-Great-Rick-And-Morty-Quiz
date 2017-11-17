@@ -7,9 +7,13 @@
         <link href="css/circles.css" rel="stylesheet">
         <script type="text/javascript" src="paper-full.min.js"></script>
         <script type="text/paperscript" canvas="myCanvas">
-            var myCircle = new Path.Circle(new Point(100, 70), 50);
-            myCircle.fillColor = 'black';
-            
+            function onKeyDown(event) {
+                var maxPoint = new Point(view.size.width, view.size.width);
+                var randomPoint = Point.random();
+                var point = maxPoint * randomPoint;
+
+                new Path.Circle(new Point(point), 50).fillColor = 'purple';
+            } 
         </script>
     </head>
     <body>
