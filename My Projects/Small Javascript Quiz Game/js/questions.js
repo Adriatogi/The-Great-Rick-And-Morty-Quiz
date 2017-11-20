@@ -151,13 +151,13 @@ else if(current ===4){
 
 $("#choice1").on("click", function(){
   if(current === 0){ //change values so each unique response has different outcomes
-    total += 1;
+    total += 100;
   }
   else if (current === 1){
     total+=10;
   }
   else if(current===2){
-    total +=100;
+    total +=1;
   }
 
   current += 1;
@@ -167,13 +167,13 @@ $("#choice1").on("click", function(){
 
 $("#choice2").on("click", function () {
   if (current === 0) { //change values so each unique response has different outcomes
-    total += 2;
+    total += 200;
   }
   else if (current === 1) {
     total += 20;
   }
   else if (current === 2) {
-    total += 200;
+    total += 2;
   }
 
   current += 1;
@@ -183,13 +183,13 @@ $("#choice2").on("click", function () {
 
 $("#choice3").on("click", function () {
   if (current === 0) { //change values so each unique response has different outcomes
-    total += 3;
+    total += 300;
   }
   else if (current === 1) {
     total += 30;
   }
   else if (current === 2) {
-    total += 300;
+    total += 3;
   }
 
 
