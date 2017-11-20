@@ -1,31 +1,199 @@
 var total = 0;
-var current;
+var current = 0;
+
+function restartButtons() {
+  $("#choice1").text("Restart");
+  $("#choice2").text("Restart");
+  $("#choice3").text("Restart");
+}
+function character(total) {
+  switch (total) {
+    case 111:
+      $("h2").text("You are character 111");
+      restartButtons();
+      break;
+    case 211:
+      $("h2").text("You are character 211");
+      restartButtons();
+      break;
+    case 311:
+      $("h2").text("You are character 311");
+      restartButtons();
+      break;
+    case 121:
+      $("h2").text("You are character 121");
+      restartButtons();
+      break;
+    case 221:
+      $("h2").text("You are character 221");
+      restartButtons();
+      break;
+    case 321:
+      $("h2").text("You are character 321");
+      restartButtons();
+      break;
+    case 131:
+      $("h2").text("You are character 131");
+      restartButtons();
+      break;
+    case 231:
+      $("h2").text("You are character 231");
+      restartButtons();
+      break;
+    case 331:
+      $("h2").text("You are character 331");
+      restartButtons();
+      break;
+    case 112:
+      $("h2").text("You are character 112");
+      restartButtons();
+      break;
+    case 212:
+      $("h2").text("You are character 212");
+      restartButtons();
+      break;
+    case 312:
+      $("h2").text("You are character 312");
+      restartButtons();
+      break;
+    case 122:
+      $("h2").text("You are character 122");
+      restartButtons();
+      break;
+    case 222:
+      $("h2").text("You are character 222");
+      restartButtons();
+      break;
+    case 322:
+      $("h2").text("You are character 322");
+      restartButtons();
+      break;
+    case 132:
+      $("h2").text("You are character 132");
+      restartButtons();
+      break;
+    case 232:
+      $("h2").text("You are character 232");
+      restartButtons();
+      break;
+    case 332:
+      $("h2").text("You are character 332");
+      restartButtons();
+      break;
+    case 113:
+      $("h2").text("You are character 113");
+      restartButtons();
+      break;
+    case 213:
+      $("h2").text("You are character 213");
+      restartButtons();
+      break;
+    case 313:
+      $("h2").text("You are character 313");
+      restartButtons();
+      break;
+    case 123:
+      $("h2").text("You are character 123");
+      restartButtons();
+      break;
+    case 223:
+      $("h2").text("You are character 223");
+      restartButtons();
+      break;
+    case 323:
+      $("h2").text("You are character 323");
+      restartButtons();
+      break;
+    case 133:
+      $("h2").text("You are character 133");
+      restartButtons();
+      break;
+    case 233:
+      $("h2").text("You are character 233");
+      restartButtons();
+      break;
+    case 333:
+      $("h2").text("You are character 333");
+      restartButtons();
+      break;
+  }
+}
+
 function changeQuestion(){
-  if(current===2){
-
+  if(current===1){
+    $("h2").text("yeet");
+    $("#choice1").text("Answer 1");
+    $("#choice2").text("Answer 2");
+    $("#choice3").text("Answer 3");
   }
-  else if(current===3){
-
+  else if(current===2){
+    $("h2").text("yeet2");
+    $("#choice1").text("Response 1");
+    $("#choice2").text("Response 2");
+    $("#choice3").text("Response 3");
   }
+else if(current ===3){
+  character(total);
+ 
+}
+else if(current ===4){
+    $("h2").text("Question1");
+    $("#choice1").text("Choice 1");
+    $("#choice2").text("Choice 2");
+    $("#choice3").text("Choice 3");
+    current = 0;
+    total = 0; 
+}
   else {
-    alert("error");
+    alert("You are done, refresh if you want to play again"); //create a button that restarts the quiz
   }
 }
 
 $("#choice1").on("click", function(){
-  total+=1;
-  current+=1;
+  if(current === 0){ //change values so each unique response has different outcomes
+    total += 1;
+  }
+  else if (current === 1){
+    total+=10;
+  }
+  else if(current===2){
+    total +=100;
+  }
+
+  current += 1;
+  changeQuestion();
   console.log(total);
 })
 
 $("#choice2").on("click", function () {
-  total += 2;
+  if (current === 0) { //change values so each unique response has different outcomes
+    total += 2;
+  }
+  else if (current === 1) {
+    total += 20;
+  }
+  else if (current === 2) {
+    total += 200;
+  }
+
   current += 1;
+  changeQuestion();
   console.log(total);
 })
 
 $("#choice3").on("click", function () {
-  total += 3;
+  if (current === 0) { //change values so each unique response has different outcomes
+    total += 3;
+  }
+  else if (current === 1) {
+    total += 30;
+  }
+  else if (current === 2) {
+    total += 300;
+  }
+
+
   current += 1;
+  changeQuestion();
   console.log(total);
 })
