@@ -5,6 +5,8 @@ function restartButtons() {
   $("#choice1").text("Restart");
   $("#choice2").text("Restart");
   $("#choice3").text("Restart");
+  $("#choice1").hide();
+  $("#choice3").hide();
 }
 function character(total) {
   switch (total) {
@@ -120,11 +122,17 @@ function character(total) {
 }
 
 function changeQuestion(){
-  if(current===1){
-    $("h2").text("yeet");
-    $("#choice1").text("Answer 1");
-    $("#choice2").text("Answer 2");
-    $("#choice3").text("Answer 3");
+  if(current ===0){
+    $("h2").text("Are you smart?");
+    $("#choice1").text("Totally");
+    $("#choice2").text("Kind of");
+    $("#choice3").text("Nah");
+  }
+    else if(current===1){
+    $("h2").text("Are you funny?");
+    $("#choice1").text("Pretty funny");
+    $("#choice2").text("So so");
+    $("#choice3").text("No jokes, only work");
   }
   else if(current===2){
     $("h2").text("Family?");
@@ -132,18 +140,18 @@ function changeQuestion(){
     $("#choice2").text("Don't care");
     $("#choice3").text("No thanks");
   }
-else if(current ===3){
-  character(total);
- 
-}
-else if(current ===4){
+  else if(current ===3){
+    character(total);
+  }
+  else if(current ===4){  
     $("h2").text("Are you smart?");
     $("#choice1").text("Totally");
     $("#choice2").text("Kind of");
     $("#choice3").text("Nah");
+    $("button").show();
     current = 0;
-    total = 0; 
-}
+    total = 0;
+  }
   else {
     alert("You are done, refresh if you want to play again"); //create a button that restarts the quiz
   }
@@ -163,6 +171,7 @@ $("#choice1").on("click", function(){
   current += 1;
   changeQuestion();
   console.log(total);
+  console.log(current);
 })
 
 $("#choice2").on("click", function () {
@@ -179,6 +188,7 @@ $("#choice2").on("click", function () {
   current += 1;
   changeQuestion();
   console.log(total);
+  console.log(current);
 })
 
 $("#choice3").on("click", function () {
@@ -192,8 +202,8 @@ $("#choice3").on("click", function () {
     total += 3;
   }
 
-
   current += 1;
   changeQuestion();
   console.log(total);
+  console.log(current);
 })

@@ -1,8 +1,24 @@
 .jumbotron {
     background: white;
     margin: 15% 10%;
+    padding-bottom: 0px;
+    position: relative;
 }
 
+#h2 {
+    font-family: 'Chivo';
+}
+
+.button {
+    font-family: 'Chivo';
+}
 #background {
     background: #99ccff;
 }
+
+ #restartButtonParent {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        margin: 10px 10px;
+} 

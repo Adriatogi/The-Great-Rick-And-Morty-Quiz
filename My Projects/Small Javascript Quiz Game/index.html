@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="css/styles.css" rel="stylesheet">
         <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Chivo:400,700" rel="stylesheet">
         <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
         <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
 
@@ -15,25 +16,29 @@
             
             <div class="container">
                 <div class="text-center">
-                    <h2>Are you smart?</h2>
+                    <h2 id = "h2">Are you smart?</h2>
                 </div>
 
                 <div class="row">
                     <div class= "col-4">
                         <div class = "text-center">
-                            <button id="choice1">Totally</button>
+                            <button id="choice1" class="button btn btn-info">Totally</button>
                         </div>
                     </div>
                     <div class= "col-4">
                         <div class="text-center">
-                            <button id="choice2">Kind of</button>
+                            <button id="choice2" class="button btn btn-info">Kind of</button>
                         </div>
                     </div>
                     <div class= "col-4">
                         <div class="text-center">
-                            <button id="choice3">Nah</button>
+                            <button id="choice3" class="button btn btn-info">Nah</button>
                         </div>
                     </div>
+                </div>
+
+                <div id="restartButtonParent" class="pull-right">
+                    <button id="restartButton" class="btn btn-warning">Restart</button>
                 </div>
             </div>
         </div>
