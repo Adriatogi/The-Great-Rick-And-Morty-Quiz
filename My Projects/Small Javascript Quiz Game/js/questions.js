@@ -127,20 +127,20 @@ function changeQuestion(){
     $("#choice3").text("Answer 3");
   }
   else if(current===2){
-    $("h2").text("yeet2");
-    $("#choice1").text("Response 1");
-    $("#choice2").text("Response 2");
-    $("#choice3").text("Response 3");
+    $("h2").text("Family?");
+    $("#choice1").text("All the way");
+    $("#choice2").text("Don't care");
+    $("#choice3").text("No thanks");
   }
 else if(current ===3){
   character(total);
  
 }
 else if(current ===4){
-    $("h2").text("Question1");
-    $("#choice1").text("Choice 1");
-    $("#choice2").text("Choice 2");
-    $("#choice3").text("Choice 3");
+    $("h2").text("Are you smart?");
+    $("#choice1").text("Totally");
+    $("#choice2").text("Kind of");
+    $("#choice3").text("Nah");
     current = 0;
     total = 0; 
 }
@@ -167,7 +167,7 @@ $("#choice1").on("click", function(){
 
 $("#choice2").on("click", function () {
   if (current === 0) { //change values so each unique response has different outcomes
-    total += 200;
+    total += 200; 
   }
   else if (current === 1) {
     total += 20;
