@@ -1,6 +1,15 @@
 var total = 0;
 var current = 0;
 
+function restart() {
+  $("h2").text("Are you smart?");
+  $("#choice1").text("Totally");
+  $("#choice2").text("Kind of");
+  $("#choice3").text("Nah");
+  $("button").show();
+  current = 0;
+  total = 0;
+}
 function restartButtons() {
   $("#choice1").text("Restart");
   $("#choice2").text("Restart");
@@ -144,13 +153,7 @@ function changeQuestion(){
     character(total);
   }
   else if(current ===4){  
-    $("h2").text("Are you smart?");
-    $("#choice1").text("Totally");
-    $("#choice2").text("Kind of");
-    $("#choice3").text("Nah");
-    $("button").show();
-    current = 0;
-    total = 0;
+    restart();
   }
   else {
     alert("You are done, refresh if you want to play again"); //create a button that restarts the quiz
@@ -206,4 +209,8 @@ $("#choice3").on("click", function () {
   changeQuestion();
   console.log(total);
   console.log(current);
+})
+
+$("#restartButton").on("click", function(){
+  restart();
 })
