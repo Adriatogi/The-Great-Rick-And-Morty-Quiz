@@ -1,7 +1,6 @@
 .jumbotron {
     background: white;
-    margin: 15% 10%;
-    padding-bottom: 0px;
+    margin: 5% 10%;
     position: relative;
 }
 
@@ -11,6 +10,7 @@
 
 .button {
     font-family: 'Chivo';
+    margin-bottom: 10px;
 }
 #background {
     background: #99ccff;

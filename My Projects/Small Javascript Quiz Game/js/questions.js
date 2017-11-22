@@ -7,6 +7,7 @@ function restart() {
   $("#choice2").text("Kind of");
   $("#choice3").text("Nah");
   $("button").show();
+  $("#picture img:last-child").remove()
   current = 0;
   total = 0;
 }
@@ -17,11 +18,13 @@ function restartButtons() {
   $("#choice1").hide();
   $("#choice3").hide();
 }
+
 function character(total) {
   switch (total) {
     case 111:
-      $("h2").text("You are character 111");
+      $("h2").text("You're character is Rick Sanchez");
       restartButtons();
+      $('#picture').prepend('<img id="theImg" src=pictures/Rick.png />')
       break;
     case 211:
       $("h2").text("You are character 211");
@@ -144,7 +147,7 @@ function changeQuestion(){
     $("#choice3").text("No jokes, only work");
   }
   else if(current===2){
-    $("h2").text("Family?");
+    $("h2").text("Do you value family?");
     $("#choice1").text("All the way");
     $("#choice2").text("Don't care");
     $("#choice3").text("No thanks");
