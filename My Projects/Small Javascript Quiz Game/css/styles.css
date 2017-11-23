@@ -16,9 +16,27 @@
     background: #99ccff;
 }
 
- #restartButtonParent {
+#restartButtonParent {
         position: absolute;
         bottom: 0;
         right: 0;
         margin: 10px 10px;
 } 
+
+#jerry {
+    width:auto;
+	max-width:50%;
+	height:auto;
+}
+
+#morty {
+    width:auto;
+	max-width:45%;
+	height:auto;
+}
+
+#meeseeks {
+    width:auto;
+	max-width:45%;
+	height:auto;
+}

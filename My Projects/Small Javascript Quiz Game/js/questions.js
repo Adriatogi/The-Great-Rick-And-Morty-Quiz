@@ -24,110 +24,117 @@ function character(total) {
     case 111:
       $("h2").text("You're character is Rick Sanchez");
       restartButtons();
-      $('#picture').prepend('<img id="theImg" src=pictures/Rick.png />')
+      $('#picture').prepend('<img id="rick" src=pictures/Rick.png />')
       break;
     case 211:
-      $("h2").text("You are character 211");
+      $("h2").text("You're character is Morty Smith");
       restartButtons();
+      $('#picture').prepend('<img id="morty" src=pictures/Morty.png />')
       break;
     case 311:
-      $("h2").text("You are character 311");
+      $("h2").text("You're character is 311");
       restartButtons();
       break;
     case 121:
-      $("h2").text("You are character 121");
+      $("h2").text("You're character is 121");
       restartButtons();
       break;
     case 221:
-      $("h2").text("You are character 221");
+      $("h2").text("You're character is Summer Smith");
       restartButtons();
+      $('#picture').prepend('<img id="summer" src=pictures/Summer.png />')
       break;
     case 321:
-      $("h2").text("You are character 321");
+      $("h2").text("You're character is Jerry Smith");
       restartButtons();
+      $('#picture').prepend('<img id="jerry" src=pictures/Jerry.png />')
       break;
     case 131:
-      $("h2").text("You are character 131");
+      $("h2").text("You're character is 131");
       restartButtons();
       break;
     case 231:
-      $("h2").text("You are character 231");
+      $("h2").text("You're character is Beth Smith");
       restartButtons();
+      $('#picture').prepend('<img id="beth" src=pictures/Beth.png />')
       break;
     case 331:
-      $("h2").text("You are character 331");
+      $("h2").text("You're character is 331");
       restartButtons();
       break;
     case 112:
-      $("h2").text("You are character 112");
+      $("h2").text("You're character is Birdperson");
       restartButtons();
+      $('#picture').prepend('<img id="bird" src=pictures/Bird.png />')
       break;
     case 212:
-      $("h2").text("You are character 212");
+      $("h2").text("You're character is 212");
       restartButtons();
       break;
     case 312:
-      $("h2").text("You are character 312");
+      $("h2").text("You're character is 312");
       restartButtons();
       break;
     case 122:
-      $("h2").text("You are character 122");
+      $("h2").text("You're character is 122");
       restartButtons();
       break;
     case 222:
-      $("h2").text("You are character 222");
+      $("h2").text("You're character is 222");
       restartButtons();
       break;
     case 322:
-      $("h2").text("You are character 322");
+      $("h2").text("You're character is 322");
       restartButtons();
       break;
     case 132:
-      $("h2").text("You are character 132");
+      $("h2").text("You're character is 132");
       restartButtons();
       break;
     case 232:
-      $("h2").text("You are character 232");
+      $("h2").text("You're character is 232");
       restartButtons();
       break;
     case 332:
-      $("h2").text("You are character 332");
+      $("h2").text("You're character is 332");
       restartButtons();
       break;
     case 113:
-      $("h2").text("You are character 113");
+      $("h2").text("You're character is 113");
       restartButtons();
       break;
     case 213:
-      $("h2").text("You are character 213");
+      $("h2").text("You're character is Mr. Meeseeks");
       restartButtons();
+      $('#picture').prepend('<img id="meeseeks" src=pictures/meeseeks.png />')
       break;
     case 313:
-      $("h2").text("You are character 313");
+      $("h2").text("You're character is 313");
       restartButtons();
       break;
     case 123:
-      $("h2").text("You are character 123");
+      $("h2").text("You're character is 123");
       restartButtons();
       break;
     case 223:
-      $("h2").text("You are character 223");
+      $("h2").text("You're character is 223");
       restartButtons();
       break;
     case 323:
-      $("h2").text("You are character 323");
+      $("h2").text("You're character is 323");
       restartButtons();
       break;
     case 133:
-      $("h2").text("You are character 133");
+      $("h2").text("You're character is Evil Morty");
       restartButtons();
+      $('#picture').prepend('<img id="evil" src=pictures/Evil.png />')
       break;
     case 233:
-      $("h2").text("You are character 233");
+      $("h2").text("You're character is 233");
       restartButtons();
       break;
     case 333:
-      $("h2").text("You are character 333");
+      $("h2").text("You're character is 333");
       restartButtons();
       break;
   }
@@ -144,7 +151,7 @@ function changeQuestion(){
     $("h2").text("Are you funny?");
     $("#choice1").text("Pretty funny");
     $("#choice2").text("So so");
-    $("#choice3").text("No jokes, only work");
+    $("#choice3").text("Not really");
   }
   else if(current===2){
     $("h2").text("Do you value family?");
@@ -159,7 +166,7 @@ function changeQuestion(){
     restart();
   }
   else {
-    alert("You are done, refresh if you want to play again"); //create a button that restarts the quiz
+    alert("You're done, refresh if you want to play again"); //create a button that restarts the quiz
   }
 }
 
