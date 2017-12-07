@@ -60,8 +60,9 @@ function character(total) {
       $('#picture').prepend('<img id="beth" src=pictures/Beth.png />')
       break;
     case 331:
-      $("h2").text("You're character is 331");
+      $("h2").text("You're character is Jaguar");
       restartButtons();
+      $('#picture').prepend('<img id="jaguar" src=pictures/Jaguar.png />')
       break;
     case 112:
       $("h2").text("You're character is Birdperson");
@@ -127,8 +128,9 @@ function character(total) {
       $('#picture').prepend('<img id="doofus" src=pictures/Doofus.png />')
       break;
     case 323:
-      $("h2").text("You're character is 323");
+      $("h2").text("You're character is Ants in my Eyes Johnson");
       restartButtons();
+      $('#picture').prepend('<img id="johnson" src=pictures/Johnson.png />')
       break;
     case 133:
       $("h2").text("You're character is Evil Morty");
