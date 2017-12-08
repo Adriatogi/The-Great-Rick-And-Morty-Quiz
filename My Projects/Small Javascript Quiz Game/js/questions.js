@@ -70,16 +70,18 @@ function character(total) {
       $('#picture').prepend('<img id="bird" src=pictures/Bird.png />')
       break;
     case 212:
-      $("h2").text("You're character is 212");
+      $("h2").text("You're character is Alien Parasites");
       restartButtons();
+      $('#picture').prepend('<img id="parasites" src=pictures/Parasites.png />')
       break;
     case 312:
       $("h2").text("You're character is 312");
       restartButtons();
       break;
     case 122:
-      $("h2").text("You're character is 122");
+      $("h2").text("You're character is Snuffles");
       restartButtons();
+      $('#picture').prepend('<img id="snuffles" src=pictures/Snuffles.png />')
       break;
     case 222:
       $("h2").text("You're character is 222");
@@ -91,19 +93,22 @@ function character(total) {
       $('#picture').prepend('<img id="golden" src=pictures/Golden.png />')
       break;
     case 132:
-      $("h2").text("You're character is 132");
+      $("h2").text("You're character is Unity");
       restartButtons();
+      $('#picture').prepend('<img id="unity" src=pictures/Unity.png />')
       break;
     case 232:
-      $("h2").text("You're character is 232");
+      $("h2").text("You're character is Krombopulos Michael");
       restartButtons();
+      $('#picture').prepend('<img id="krom" src=pictures/Krom.png />')
       break;
     case 332:
-      $("h2").text("You're character is 332");
+      $("h2").text("You're character is Morty Smith Jr.");
       restartButtons();
+      $('#picture').prepend('<img id="jr" src=pictures/Jr.png />')
       break;
     case 113:
-      $("h2").text("You're character is 113");
+      $("h2").text("You're character is Squanchy");
       restartButtons();
       $('#picture').prepend('<img id="squanch" src=pictures/Squanch.png />')
       break;
@@ -138,8 +143,9 @@ function character(total) {
       $('#picture').prepend('<img id="evil" src=pictures/Evil.png />')
       break;
     case 233:
-      $("h2").text("You're character is 233");
+      $("h2").text("You're character is Revolio Clockberg, Jr.");
       restartButtons();
+      $('#picture').prepend('<img id="gear" src=pictures/Gear.png />')
       break;
     case 333:
       $("h2").text("You're character is Abradolf Lincler");
