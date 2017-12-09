@@ -34,11 +34,12 @@ function character(total) {
     case 311:
       $("h2").text("You're character is Mr. Poopybutthole");
       restartButtons();
-      $('#picture').prepend('<img id="Poopy" src=pictures/Poopy.png />')
+      $('#picture').prepend('<img id="poopy" src=pictures/Poopy.png />')
       break;
     case 121:
-      $("h2").text("You're character is 121");
+      $("h2").text("You're character is the Cromulons");
       restartButtons();
+      $('#picture').prepend('<img id="cromulons" src=pictures/Cromulons.png />')
       break;
     case 221:
       $("h2").text("You're character is Summer Smith");
@@ -84,8 +85,9 @@ function character(total) {
       $('#picture').prepend('<img id="snuffles" src=pictures/Snuffles.png />')
       break;
     case 222:
-      $("h2").text("You're character is 222");
+      $("h2").text("You're character is King Flippy Nips");
       restartButtons();
+      $('#picture').prepend('<img id="flippy" src=pictures/Flippy.png />')
       break;
     case 322:
       $("h2").text("You're character is Mr. Goldenfold");
