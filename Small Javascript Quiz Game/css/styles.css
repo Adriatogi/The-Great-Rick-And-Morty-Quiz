@@ -1,0 +1,100 @@
+body {
+    font-family: 'Chivo';
+}
+
+#title{
+    text-align: center;
+}
+
+#jumbo {
+    background: rgb(255, 255, 255);
+    margin: 3% 10%;
+    position: relative;
+    padding: 3rem 2rem
+}
+
+#h2 {
+    padding-top: 5px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.button {
+    font-family: 'Chivo';
+    margin-bottom: 10px;
+}
+#background {
+    background-image: url(../pictures/Ready.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 50% 100%;
+}
+
+#restartButtonParent {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 10px 10px;
+} 
+
+.show {
+    height: 300px;
+} 
+
+img {
+    height: 100%;
+    max-height: 100%;
+    max-width: 100%; 
+}
+
+#hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+#result {
+    display: none;
+}
+
+#quote {
+    font-weight: 700;
+    font-style: italic;
+    font-size: 25px;
+    text-align: center;
+}
+
+#questionDisplay {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+#emphasize {
+    font-weight: 700;
+    font-size: 80px;
+}
+
+.smaller {
+    font-size: 30px;
+}
+
+#restartButton {
+    background-color: #CCCC99;
+    color: rgb(255, 255, 255);
+}
+#choice1 {
+    color: rgb(255, 255, 255);
+}
+#choice2 {
+    color: rgb(255, 255, 255);
+}
+#choice3 {
+    color: rgb(255, 255, 255);
+}
+
+.scale-up {
+  transform: scale(1.2);
+}
+.scale-down {
+  transform: scale(1);
+}
