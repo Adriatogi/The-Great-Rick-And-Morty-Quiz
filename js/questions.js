@@ -175,16 +175,16 @@ function changeQuestion(){
   }
     else if(current===1){
     $("h2").text("Are you funny?");
-    $("#choice1").text("Pretty funny");
+    $("#choice1").text("Quite funny");
     $("#choice2").text("So so");
     $("#choice3").text("Not really");
     $("#question").text("Question 2");
   }
   else if(current===2){
     $("h2").text("Do you value family?");
-    $("#choice1").text("All the way");
+    $("#choice1").text("100%");
     $("#choice2").text("A little");
-    $("#choice3").text("No thanks");
+    $("#choice3").text("No much");
     $("#question").text("Question 3");
   }
   else if(current ===3){
