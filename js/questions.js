@@ -177,7 +177,7 @@ function changeQuestion(){
     $("h2").text("Are you funny?");
     $("#choice1").text("Quite funny");
     $("#choice2").text("So so");
-    $("#choice3").text("Not really");
+    $("#choice3").text("Not close");
     $("#question").text("Question 2");
   }
   else if(current===2){
