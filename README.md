@@ -1,6 +1,6 @@
-# The-Great-Rick-And-Morty-Quiz
-To run my project/website. https://adriatogi.github.io/The-Great-Rick-And-Morty-Quiz/ <br />
-**It is currently only desktop version. Please refrain from opening my project on a mobile device**
+﻿# The-Great-Rick-And-Morty-Quiz
+To run my project/website. https://adriatogi.github.io/The-Great-Rick-And-Morty-Quiz/ <br/>
+**It is currently only desktop version. Please refrain from opening my project on a mobile device*
 
 - My project is a small three question with three answer quiz. Based on your answers about your personality. You will be given a character from the animated series, *Rick and Morty*. There are up to thirty characters and all have a specialized quote.
 
