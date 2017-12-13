@@ -124,7 +124,7 @@ function character(total) {
       break;
     case 213:
       $("h2").text("Your character is Mr. Meeseeks");
-      $('#picture').prepend('<img id="meeseeks" src=pictures/meeseeks.png />')  
+      $('#picture').prepend('<img id="meeseeks" src=pictures/Meeseeks.png />')  
       $('#quote').prepend("&#8220;I'm Mr. Meeseeks! Look at me!&#8221;- Mr. Meeseeks")
       break;
     case 313:
