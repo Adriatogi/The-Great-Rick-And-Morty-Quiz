@@ -184,7 +184,7 @@ function changeQuestion(){
     $("h2").text("Do you value family?");
     $("#choice1").text("100%");
     $("#choice2").text("A little");
-    $("#choice3").text("No much");
+    $("#choice3").text("Not much");
     $("#question").text("Question 3");
   }
   else if(current ===3){
