@@ -27,7 +27,7 @@ body {
     background-image: url(../pictures/Ready.jpg);
     background-repeat:no-repeat;
     background-size:cover;
-      background-attachment: fixed;
+    background-attachment: fixed;
     background-position: center center;
     background-color: #99d1ff;
 }
@@ -41,7 +41,7 @@ body {
 } 
 
 .show {
-    height: 300px;
+    height: 25vw;
 } 
 
 img {
@@ -63,7 +63,7 @@ img {
 #quote {
     font-weight: 700;
     font-style: italic;
-    font-size: 25px;
+    font-size: 3.25vw;
     text-align: center;
 }
 
@@ -110,6 +110,7 @@ img {
     width: 100%;
     max-width: 120px;
     min-width: 25px;
+    
     font-size: 1.8vw;
     padding-top: 0.375rem;
     padding-right: 0.4rem;
@@ -138,3 +139,23 @@ img {
 .whiteSpace{
     white-space: normal;
 }
+
+
+@media screen and (min-width: 1123px) {
+  #choice1 {
+     font-size: 20px;
+  }
+    #choice2 {
+     font-size: 20px;
+  }
+    #choice3 {
+     font-size: 20px;
+  }
+    #restartButton {
+     font-size: 20px;
+  }
+  #quote{
+      font-size: 25px;
+  }
+}
+
