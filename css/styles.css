@@ -5,6 +5,10 @@
     padding: 3rem 2rem
 }
 
+html, body {
+    height: 100%;
+}
+
 #process {
     padding-top: 5px;
     font-size: 25px;
@@ -12,12 +16,16 @@
 }
 
 #background {
-    background-image: url(../pictures/logo1.png);
+    /* background-image: url(../pictures/logo1.png); */
     background-repeat:no-repeat;
     background-attachment: fixed;
     background-position: center bottom;
     background-color: #99d1ff;
     background-size: auto;
+}
+
+#backImage {
+    position: center bottom;
 }
 
 #restartButtonParent {
