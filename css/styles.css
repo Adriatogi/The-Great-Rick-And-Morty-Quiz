@@ -17,6 +17,7 @@
     background-attachment: fixed;
     background-position: center bottom;
     background-color: #99d1ff;
+    background-size: auto;
 }
 
 #restartButtonParent {
