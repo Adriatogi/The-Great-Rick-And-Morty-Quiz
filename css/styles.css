@@ -104,4 +104,8 @@ div .buttonChoice {
   #quote{
       font-size: 25px;
   }
+
+  .show {
+      height: 200px;
+  } 
 }
