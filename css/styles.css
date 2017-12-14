@@ -12,11 +12,10 @@
 }
 
 #background {
-    background-image: url(../pictures/Ready.jpg);
+    background-image: url(../pictures/logo1.png);
     background-repeat:no-repeat;
-    background-size:cover;
     background-attachment: fixed;
-    background-position: center center;
+    background-position: center bottom;
     background-color: #99d1ff;
 }
 
