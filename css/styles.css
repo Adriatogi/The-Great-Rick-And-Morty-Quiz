@@ -16,16 +16,13 @@ html, body {
 }
 
 #background {
-    /* background-image: url(../pictures/logo1.png); */
+    background-image: url(../pictures/Ready.jpg);
     background-repeat:no-repeat;
     background-attachment: fixed;
     background-position: center bottom;
     background-color: #99d1ff;
-    background-size: auto;
-}
-
-#backImage {
-    position: center bottom;
+    background-size: cover;
+    height: 100vh;
 }
 
 #restartButtonParent {
