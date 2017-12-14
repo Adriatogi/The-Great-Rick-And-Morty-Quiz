@@ -16,6 +16,10 @@ function restart() {
   total = 0;
 }
 
+function resizeBackground() {
+  $("#background").height($(window).height());
+}
+
 function restartButtons() {
   $("#choice2").text("Restart");
   $("#choice1").hide();
@@ -256,3 +260,6 @@ $(".buttonChoice").hover(
 $("#restartButton").on("click", function(){
   restart();
 })
+
+$(window).resize(resizeBackground);
+resizeBackground();
