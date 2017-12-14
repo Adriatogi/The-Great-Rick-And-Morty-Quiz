@@ -16,10 +16,6 @@ function restart() {
   total = 0;
 }
 
-function resizeBackground() {
-  $("#background").height($(window).height());
-}
-
 function restartButtons() {
   $("#choice2").text("Restart");
   $("#choice1").hide();
@@ -209,16 +205,6 @@ function endQuestion(){
   console.log(current);
 }
 
-function refreshBackground() {
-  x = 0.25;  // 5 Seconds
-
-  $(window).resize(resizeBackground);
-  resizeBackground();
-
-  setTimeout(refreshData, x * 1000);
-}
-
-
 $("#choice1").on("click", function(){
   if(current === 0){ //change values so each unique response has different outcomes
     total += 100;
@@ -270,5 +256,3 @@ $(".buttonChoice").hover(
 $("#restartButton").on("click", function(){
   restart();
 })
-
-refreshBackground();
